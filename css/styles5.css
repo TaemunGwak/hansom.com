@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
+
+body{
+  margin: 0;
+  background-color: #fafafa;  
+  }
+
+.space{
+	width: 100%;
+	height: 12px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+hr{
+  border: none;
+  width: 100%;
+  height: 12px;
+  box-shadow: 0 4.5px 6px #eeeeee;
+  margin: 0;
+}
+
+.best{
+  height: 112px;
+  text-align: center;
+  padding-top: 44px; 
+  margin-top: 14px;
+}
+
+.bestmenu{
+  font-family: 'Crimson Text', serif;
+  display: inline-block;
+  font-size: 32px;
+  color: #232323;
+}
+
+.login-form{
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.text-field{
+  height: 60px;
+  border-radius: 4px;
+  background-color: #fafafa; 
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  width: 100%
+}
+
+input.text-field{
+  border: 1px solid #888888;
+}
+
+.submit-btn{
+  height: 60px;
+  border-radius: 4px;
+  background-color: #4b5da7;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+input.submit-btn{
+  border: 1px solid #4b5da7;
+}
+
+input[type=text]:focus {
+  border: 0.1px solid #555;
+}
+
+.links a{
+  color: #232323;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.links{
+  text-align: right;
+  margin-bottom: 36px;
+}
+
+.slash{
+  font-size: 8px;
+}
+
+.sign{
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid #4b5da7;
+  background-color: #fafafa; 
+  color: #4b5da7;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 126px;
+}
+
+
+.hansom{
+	height: 52px;
+}
+
+#footer{
+	width: 100%;
+	height: 240px;
+	background-color: black;
+	color: #999999;
+}
+
+.footer-group{
+	float: left;
+	margin-top: 48px;
+	margin-right: 48px;
+}
+
+.name{
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.footer-info{
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.sns{
+	margin-right: 8px;
+}

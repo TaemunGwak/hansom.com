@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fafafa;
+}
+
+.space{
+	width: 100%;
+	height: 12px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.devide{
+  border: none;
+  width: 100%;
+  height: 12px;
+  box-shadow: 0 4.5px 6px #eeeeee;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.product-image{
+	width: 40%;
+	height: 600px;
+	background-image: url(https://www.dafarm.net/data/goods/1/2021/02/824_20210224172353158.jpg);
+	background-position: 77% 62%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info{
+	float: right;
+}
+
+.info .brand{
+	font-size: 15px;
+	color: #949494;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.info .product{
+	color: #333333;
+	margin-bottom: 12px;
+	line-height: 25px;
+}
+
+.info .first{
+	margin-bottom: 12px;
+}
+
+.info .product-info{
+	display: inline-block;
+	width: 200px;
+	color: #666666;
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+
+.info .space{
+	display: inline-block;
+	width: 56px;
+	height: 20px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.info .figure{
+	display: inline;
+	margin-right: 160px;
+	color: #333333;
+	line-height: 25px;
+}
+
+.info .figure2{
+	display: inline;
+	padding: 2px 8px 4px 8px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	color: #dddddd;
+	margin-right: 160px;
+	color: #333333;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.info .figure2 .minus{
+	margin-right: 16px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.info .figure2 .plus{
+	margin-left: 16px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.minus:hover{
+	text-decoration: none;
+	color: #333333;
+}
+
+.plus:hover{
+	text-decoration: none;
+	color: #333333;
+}
+
+.info .login{
+	color: #4b5da7;
+}
+
+.info .price{
+	margin-top: 32px;
+	color: #333333;
+}
+
+.info .information{
+	font-size: 15px;
+	color: #949494;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.amount{
+	display: inline-block;
+	float: right;
+	margin-top: 24px;
+	margin-bottom: 0px;
+}
+
+.product-amount{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.usd{
+	font-size: 20px;
+	margin-left: 8px;
+}
+
+.points{
+	display: inline-block;
+	float: right;
+	margin-bottom: 28px;
+}
+
+.usdprice{
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 8px;
+}
+
+.point{
+	display: inline;
+	background-color: #ffbf00;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 100px;
+	font-size: 8px;
+	border: 0.5px solid #e8a828;
+	margin-right: 8px;
+}
+
+.login-points{
+	color: #4a4a4a;
+}
+
+.restock:hover{
+	text-decoration: none;
+	color: #dddddd;
+}
+
+.cart:hover{
+	text-decoration: none;
+	color: #4b5da7;
+}
+
+.buynow:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.restock{
+	padding: 12px 24px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	color: #dddddd;
+	margin-right: 8px;
+}
+
+.cart{
+	padding: 12px 24px;
+	border: 1px solid #4b5da7;
+	border-radius: 4px;
+	color: #4b5da7;
+	margin-right: 8px;
+}
+
+.buynow{
+	padding: 12px 80px;
+	background-color: #4b5da7;
+	color: white;
+	border-radius: 4px;
+}
+
+.container2{
+	width: 100%;
+	height: 580px;
+	padding-top: 120px;
+}
+
+#box{
+	font-size: 22px;
+	margin-right: 6px;
+}
+
+.combination{
+	margin-top: 48px;
+	margin-bottom: -12px;
+	font-size: 20px;
+	text-align: left;
+	font-weight: 500;
+	color: #333333;
+	text-align: center;
+}
+
+.row2{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.move{
+	position: relative;
+	top: 172px;
+}
+
+.move2{
+	position: relative;
+	top: 172px;
+	left: 1050px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.menu{
+	display: block;
+	margin-bottom: 64px;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+#image{
+	height: 200px;
+	overflow: hidden;
+}
+
+.menu:hover{
+	text-decoration: none;
+}
+
+a.menu:hover img:first-child{
+  transform: scale(1.02);
+}
+
+a img:first-child{
+	transition: 0.3s;
+}
+
+.menu .menu-image{
+	display: block;
+}
+
+.menu .info{
+	width: 231.75px;
+	display: inline-block;
+	padding: 12px;
+	font-size: 12px;
+	color: #949494;
+	margin: 0px;
+	font-weight: 400;
+}
+
+.menu .info .product{
+	font-size: 16px;
+	color: #4a4a4a;
+	margin: 0;
+	line-height: 25px;
+}
+
+.menu .info .price{
+	font-size: 16px;
+	color: #4a4a4a;
+	margin-top: 0;
+	margin-bottom: 12px;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+
+.details{
+	text-align: center;
+}
+
+.detail{
+	display: inline-block;
+	width: 222px;
+	border: 1px solid  #e9e9e9;
+	margin: -2.3px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #f5f5f5;
+	color: #666666;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.detail-first{
+	display: inline-block;
+	width: 222px;
+	border-top: 1px solid  #e9e9e9;
+	border-left: 1px solid  #e9e9e9;
+	border-right: 1px solid  #e9e9e9;
+	margin: -2.3px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #fafafa;
+	color: #4b5da7;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.detail:hover{
+	text-decoration: none;
+	color:  #666666;
+}
+
+.detail-first:hover{
+	text-decoration: none;
+	color: #4b5da7;
+}
+
+.product-image2{
+	width: 100%;
+	height: 600px;
+	background-image: url(http://gi.esmplus.com/dafarmy/dafarm/df_120m/f_08.jpg);
+	background-position: 62% 62%;
+	background-repeat: no-repeat;
+	margin-top: 56px;
+	margin-bottom: 56px;
+}
+
+.good-info{
+	text-align: center;
+	color: #666666;
+}
+
+.good-head{
+	margin-bottom: 12px;
+}
+
+.good-head2{
+	margin-bottom: 32px;
+}
+
+.line{
+	border-color: #afafaf;
+}
+
+.good-p{
+	color: #666666;
+	font-size: 20px;
+	margin-top: 32px;
+	font-weight: 300;
+	line-height: 32px;
+	margin-bottom: 112px;
+}
+
+.hansom{
+	height: 52px;
+}
+
+#footer{
+	width: 100%;
+	height: 240px;
+	background-color: black;
+	color: #999999;
+}
+
+.footer-group{
+	float: left;
+	margin-top: 48px;
+	margin-right: 48px;
+}
+
+.name{
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.footer-info{
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.sns{
+	margin-right: 8px;
+}
+

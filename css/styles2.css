@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fafafa;
+}
+
+.space{
+	width: 100%;
+	height: 12px;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+hr{
+  border: none;
+  width: 100%;
+  height: 12px;
+  box-shadow: 0 4.5px 6px #eeeeee;
+  margin: 0;
+}
+
+.best{
+	height: 124px;
+	text-align: center;
+	padding-top: 44px; 
+}
+
+.best2{
+	height: 124px;
+	text-align: center;
+	padding-top: 44px; 
+}
+
+#bestmenu{
+	font-size: 36px;
+	font-family: 'Crimson Text', serif;
+	display: inline-block;
+	color: #232323;
+	
+}
+
+#popular{
+	display: inline-block;
+	color: #232323;
+	text-decoration: none;
+	font-size: 24px;
+	margin-left: 4px;
+}
+
+#bestmenu:hover{
+	text-decoration: none;
+}
+
+#popular:hover{
+	text-decoration: none;
+}
+
+.menu{
+	display: block;
+	margin-bottom: 64px;
+	overflow: hidden;
+}
+
+#image{
+	height: 280px;
+	overflow: hidden;
+}
+
+.menu:hover{
+	text-decoration: none;
+}
+
+a.menu:hover img:first-child{
+  transform: scale(1.02);
+}
+
+a img:first-child{
+	transition: 0.3s;
+}
+
+.menu .menu-image{
+	display: block;
+}
+
+.icon{
+	position: relative;
+	bottom: 200px;
+}
+.menu .info{
+	display: inline-block;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: 6px;
+	padding-top: 12px;
+	font-size: 15px;
+	color: #949494;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.mg{
+	margin-left: 140px;
+}
+
+.mg2{
+	margin-left: 222px;
+}
+
+.mg3{
+	margin-left: 110px;
+}
+
+.mg4{
+	margin-left: 154px;
+}
+
+.mg5{
+	margin-left: 149px;
+}
+
+.mg6{
+	margin-left: 192px;
+}
+
+.menu .info .brand{
+	font-size: 15px;
+	color: #949494;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+#see{
+	text-align: right;
+}
+
+#eye{
+	margin-left: 6px;
+}
+
+.menu .info .product{
+	font-size: 18px;
+	color: #4a4a4a;
+	margin-bottom: 12px;
+	line-height: 25px;
+}
+
+.menu .info .price{
+	font-size: 18px;
+	color: #232323;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+
+.menu .info .information{
+	font-size: 13px;
+	color: #949494;
+}
+
+.hansom{
+	height: 52px;
+}
+
+#footer{
+	width: 100%;
+	height: 240px;
+	background-color: black;
+	color: #999999;
+}
+
+.footer-group{
+	float: left;
+	margin-top: 48px;
+	margin-right: 48px;
+}
+
+.name{
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.footer-info{
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.sns{
+	margin-right: 8px;
+}
